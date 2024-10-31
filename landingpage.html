@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Food</title>
+  <link rel="stylesheet" href="landingpage.css">
+</head>
+<body style="background-color:rgba(174, 28, 40, 0.204);">
+  <section class="hero">
+    <h1>Delicious Meals Just for You!</h1>
+    <p>Savor Every Bite with Unmatched Taste and Quality</p>
+  </section>
+  <section class="menu">
+    <h2>Our Menu</h2>
+    <ul class="menu-list">
+      <li class="menu-item" data-item="salmon">Grilled Salmon</li>
+      <li class="menu-item" data-item="oreo-dessert">Oreo Dessert Pots</li>
+      <li class="menu-item" data-item="carbonara">Spaghetti Carbonara</li>
+    </ul>
+  </section>
+<section class="featured-dishes">
+  <h2>Our Featured Dishes</h2>
+  <div class="dish-container">
+    <div class="dish" id="salmon">
+      <img src="pic1.jpg" alt="Grilled Salmon">
+      <h3>Grilled Salmon</h3>
+      <p>Taste: Rich and smoky with a hint of lemon.</p>
+      <p>Rating: ⭐⭐⭐⭐⭐</p>
+    </div>
+    <div class="dish" id="oreo-dessert">
+      <img src="pic2.jpg" alt="Oreo Dessert Pots">
+      <h3>Oreo Dessert Pots</h3>
+      <p>Taste: Gooey, rich, and satisfyingly sweet.</p>
+      <p>Rating: ⭐⭐⭐⭐⭐</p>
+    </div>
+    <div class="dish" id="carbonara">
+      <img src="pic3.jpg" alt="Spaghetti Carbonara">
+      <h3>Spaghetti Carbonara</h3>
+      <p>Taste: Creamy and savory, topped with crispy pancetta.</p>
+      <p>Rating: ⭐⭐⭐⭐☆</p>
+    </div>
+  </div>
+</section>
+  <div class="modal" id="menuModal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h3 id="modalTitle">Item Title</h3>
+      <p id="modalDescription">Item Description</p>
+      <img id="modalImage" src="" alt="Item Image" />
+    </div>
+  </div>
+  <section class="reviews">
+    <h2>What Our Customers Say</h2>
+    <div class="review-list">
+      <div class="review">
+        <p>"The best dining experience ever! The flavors were incredible!"</p>
+        <p>⭐⭐⭐⭐⭐ - Alex J.</p>
+      </div>
+      <div class="review">
+        <p>"Perfect balance of taste and presentation. Highly recommend!"</p>
+        <p>⭐⭐⭐⭐⭐ - Emma R.</p>
+      </div>
+    </div>
+    <textarea id="reviewInput" placeholder="Write your review here..." rows="4"></textarea>
+    <br>
+    <button id="submitReviewButton">Submit Review</button>
+  </section>
+  <footer>
+    <p>Contact Us: (123) 456-7890 | info@deliciousbites.com</p>
+    <p>Follow Us:</p>
+    <div class="social-icons">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+    </div>
+  </footer>
+  <button id="scrollToTopButton">⬆️ Top</button>
+  <script src="landingpage.js"></script>
+</body>
+</html>
